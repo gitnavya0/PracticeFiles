@@ -1,0 +1,27 @@
+STL- standard template library
+1. Container - stores data
+2. Agorithm - procedure to process data, sort, search, etc
+3. Iterator - object which points to an element of a container.
+iterator connects containers to algorithms.
+
+types of containers:
+1. Sequence containers - store data in a linear way (list, vector, double ended queue)
+2. Associative contianers - for faster direct access (map, multimap, set, multiset, dictionary)
+3. Derived containers - Real world modelling (stack, priority queue, queue)
+
+VECTOR (Vs array)
+random access = fast
+insertion/deletion in the middle = slow 
+insertion at the end = fast 
+
+LIST 
+random access = slow 
+middle insertion/deletion = fast
+insertion/deletion at the end = fast
+
+Associative container - all operations are fast except random access because it is stored in a tree data structure 
+
+Derived container - depends on the container  
+
+
+
